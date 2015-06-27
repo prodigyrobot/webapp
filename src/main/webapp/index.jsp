@@ -1,14 +1,15 @@
+
 <html>
 <body>
-<h2>My first server application</h2>
-
-   <div>
-       <H3><a href="<%=request.getContextPath()%>/users">Users</a></H3>
-       
-       
-       
-       
-   </div>
-
+    <H1>Add User:</H1>
+    <BR>
+    
+    <form action="adduser" method="POST">
+       Name: <input type="text" name="name"><br />
+       <input type="submit" value="Submit" />
+    </form>
+    
+     <BR>
+    <H3><a href="<%=request.getContextPath()%>/users">Users</a></H3>
 </body>
 </html>
