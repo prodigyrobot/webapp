@@ -45,6 +45,8 @@
   <!-- DB connection URL: jdbc:h2:tcp://localhost/~/project1-->
   <!-- DB manager WEB URL: http://localhost:8082 -->
   
+  <!-- CREATE TABLE USERS (ID BIGINT AUTO)INCREMENT, NAME VARCHAR(255)); -->
+  
   <resource-ref>
      <description>H2DB</description>
         <res-ref-name>jdbc/project1</res-ref-name>
